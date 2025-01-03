@@ -1,0 +1,16 @@
+issue_management_task:
+  description: >
+    Monitor and manage the workflow of tasks distributed among AI agents through GitHub issues.
+    Ensure each task is clearly understood and commented upon by the responsible AI agent.
+    Await and verify "Ok" or "NOT OK" responses regarding "destroy" commands in Terraform before proceeding.
+  expected_output: >
+    All tasks are correctly delegated and managed, with GitHub issues updated promptly. 
+    Issues related to "destroy" commands must be resolved based on the feedback ("Ok" or "NOT OK") from the issue creator.
+
+task_delegation:
+  description: >
+    Delegate new tasks to AI agents as soon as the previous tasks are marked as "closed" in GitHub issues.
+    Ensure that tasks are aligned with the agents' roles and capabilities, optimizing the workflow and efficiency.
+  expected_output: >
+    Seamless transition between tasks with all GitHub issues marked as "closed" once completed, and new tasks are appropriately delegated.
+
